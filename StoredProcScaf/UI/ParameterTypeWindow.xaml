@@ -1,0 +1,23 @@
+﻿<Window x:Name="window" x:Class="StoredProcScaf.UI.ParameterTypeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ParameterTypeWindow" Height="350" Width="350" MaxHeight="400" SizeToContent="Height">
+
+    <Grid VerticalAlignment="Stretch">
+
+        <StackPanel  Margin="0,0,-0.4,0.4" >
+
+            <DataGrid HorizontalAlignment="Stretch" AutoGenerateColumns="false" VerticalAlignment="Stretch"  ItemsSource="{Binding MyParameters}" Height="290">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Parameter" IsReadOnly="True"  Binding="{Binding Path=MyParameter}"  Width="*" />
+                    <DataGridTextColumn Header="Type"  Binding="{Binding Path=MyType}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Right"  Orientation="Horizontal">
+                <Button Content="OK"  Margin="5 " Width="75" Click="Button_Click" />
+                <Button Content="Cancel" Margin="5" Width="75" Click="Button_Click_1" />
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

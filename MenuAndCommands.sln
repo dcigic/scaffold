@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuAndCommands", "MenuAndCommands.csproj", "{F3E3199F-C005-4A14-B96B-974896986EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "..\WpfApplication1\WpfApplication1.csproj", "{66872022-0B28-4407-A603-85B1208AE14B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoredProcScaf", "StoredProcScaf\StoredProcScaf.csproj", "{C58AE7BD-505B-4758-932C-9E4D12DC50E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3E3199F-C005-4A14-B96B-974896986EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E3199F-C005-4A14-B96B-974896986EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E3199F-C005-4A14-B96B-974896986EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E3199F-C005-4A14-B96B-974896986EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66872022-0B28-4407-A603-85B1208AE14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66872022-0B28-4407-A603-85B1208AE14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66872022-0B28-4407-A603-85B1208AE14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66872022-0B28-4407-A603-85B1208AE14B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58AE7BD-505B-4758-932C-9E4D12DC50E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58AE7BD-505B-4758-932C-9E4D12DC50E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58AE7BD-505B-4758-932C-9E4D12DC50E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58AE7BD-505B-4758-932C-9E4D12DC50E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
